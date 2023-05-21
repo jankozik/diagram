@@ -1,8 +1,6 @@
 # Diagram
-[![Go Reference](https://pkg.go.dev/badge/github.com/esimov/diagram.svg)](https://pkg.go.dev/github.com/esimov/diagram)
-[![build](https://github.com/esimov/diagram/actions/workflows/build.yml/badge.svg)](https://github.com/esimov/diagram/actions/workflows/build.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/esimov/diagram)](https://goreportcard.com/report/github.com/esimov/diagram)
-[![license](https://img.shields.io/github/license/esimov/diagram)](./LICENSE)
+[![build](https://github.com/jankozik/diagram/actions/workflows/build.yml/badge.svg)](https://github.com/jankozik/diagram/actions/workflows/build.yml)
+[![license](https://img.shields.io/github/license/jankozik/diagram)](./LICENSE)
 
 Diagram is a full fledged CLI application to generate hand drawn diagrams from ASCII art.
 
@@ -15,7 +13,7 @@ In order to run the application please make sure that Go is installed on your lo
 Run the following commands to download the project and build the executable.
 
 ```bash
-$ git clone https://github.com/esimov/diagram
+$ git clone https://github.com/jankozik/diagram
 $ cd diagram
 $ go build
 
@@ -53,7 +51,7 @@ The application also supports the generation of hand drawn diagrams directly fro
 CLI app to convert ASCII arts into hand drawn diagrams.
 
   -font string
-    	Path to the font file (default "/Users/esimov/Projects/Go/src/github.com/esimov/diagram/font/gloriahallelujah.ttf")
+    	Path to the font file (default "/Users/jankozik/Projects/Go/src/github.com/jankozik/diagram/font/gloriahallelujah.ttf")
   -in string
     	Source
   -out string
@@ -123,4 +121,4 @@ The ASCII to PNG conversion was ported from [shaky.dart](https://github.com/mral
 
 Copyright © 2017 Endre Simo
 
-This project is under the MIT License. See the [LICENSE](https://github.com/esimov/diagram/blob/master/LICENSE) file for the full license text.
+This project is under the MIT License. See the [LICENSE](https://github.com/jankozik/diagram/blob/master/LICENSE) file for the full license text.
